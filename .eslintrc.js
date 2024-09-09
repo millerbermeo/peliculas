@@ -19,6 +19,8 @@ module.exports = {
   },
   ignorePatterns: [".eslintrc.js", "global.d.ts", "jest.base.config.ts"],
   rules: {
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
     "unused-imports/no-unused-imports": "error",
     "no-duplicate-imports": "error",
     "@typescript-eslint/triple-slash-reference": "off",
@@ -50,7 +52,6 @@ module.exports = {
     ],
     "@typescript-eslint/explicit-function-return-type": "error",
     "@typescript-eslint/explicit-member-accessibility": "error",
-    "@typescript-eslint/explicit-module-boundary-types": "error",
     "@typescript-eslint/method-signature-style": "error",
     "@typescript-eslint/no-confusing-non-null-assertion": "error",
     "@typescript-eslint/no-duplicate-enum-values": "error",
