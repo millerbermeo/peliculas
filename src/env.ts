@@ -1,6 +1,9 @@
-import { createEnv } from "@inlaze_techlead/env-nextjs";
-import { z } from "zod";
+// Elimina las importaciones no necesarias
+// import { createEnv } from "@inlaze_techlead/env-nextjs";
+// import { z } from "zod";
 
+// Ya no necesitas crear el objeto `env`
+/*
 export const env = createEnv({
   server: {
     DATABASE_URL: z.string().min(1),
@@ -32,3 +35,6 @@ export const env = createEnv({
       process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY,
   },
 });
+*/
+
+// En lugar de ese código, simplemente accede a las variables de entorno directamente desde process.env
